@@ -1,0 +1,51 @@
+Title: Ottawa OC Transpo O-Train - M…
+----------
+Short description:
+Ottawa OC Transpo O-Train for MonTransit BETA
+Schedule. Real-time status & news.
+----------
+What's new in this version?:
+Schedule from March 2, 2015 to April 18, 2015.
+
+BETA: Thanks for your patience while the last features are being added and the last bugs are being fixed.
+----------
+Full description:
+This application adds Ottawa OC Transpo O-Train information to MonTransit BETA.
+
+This app contains the O-Train schedule and the latest news from @OC_Transpo and @OCTranspoLive on Twitter.
+
+BETA: Thanks for your patience while the last features are being added and the last bugs are being fixed.
+
+OC Transpo serves Ottawa in Ontario, Canada.
+
+Once this application is installed, the MonTransit BETA app will display O-Train information (schedule...).
+
+This application only has a temporary icon and no screen: download the MonTransit BETA app (free) in the "More ..." section bellow or by following this Google Play link http://goo.gl/pCk5mV
+
+You can install this application on the SD card but it is not recommended.
+
+The information comes from the GTFS file provided by OC Transpo and the City of Ottawa
+http://www.octranspo1.com/developers
+http://data.ottawa.ca/en/dataset/oc-transpo-schedules
+
+This application is free and open-source:
+https://github.com/mtransitapps/ca-ottawa-oc-transpo-train-android
+
+This app is not related with OC Transpo.
+
+Permissions:
+- Other: required to read news (Twitter)
+----------
+Application type: Applications
+----------
+Category: Transportation
+----------
+Content rating: Low Maturity
+----------
+Website: https://github.com/mtransitapps/ca-ottawa-oc-transpo-train-android
+----------
+Email: mtransit.apps+GooglePlay@gmail.com
+----------
+Phone: 
+----------
+Privacy Policy:

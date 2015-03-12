@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MonTransit OC Transpo O-Train (Ottawa)</string>
+    <string name="app_desc">Données de l\'O-Train de OC Transpo à Ottawa pour MonTransit.</string>
+</resources>
