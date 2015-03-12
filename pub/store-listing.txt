@@ -6,6 +6,7 @@ Schedule. Real-time status & news.
 ----------
 What's new in this version?:
 Schedule from March 2, 2015 to April 18, 2015.
+Tweets from @OC_Transpo and @OCTranspoLive.
 
 BETA: Thanks for your patience while the last features are being added and the last bugs are being fixed.
 ----------

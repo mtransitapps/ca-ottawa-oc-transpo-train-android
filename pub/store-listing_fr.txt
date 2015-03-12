@@ -6,6 +6,7 @@ Horaires. Mise à jour en direct
 ----------
 What's new in this version?:
 Horaires du 2 Mars 2015 au 18 Avril 2015.
+Tweets de @OC_Transpo et @OCTranspoDirect.
 
 BETA : Merci de votre patience pendant que les dernières fonctionnalités sont ajoutées et les derniers problèmes sont corrigés.
 ----------
