@@ -82,6 +82,12 @@
             <meta-data
                 android:name="@string/status_provider_target"
                 android:value="@string/oc_transpo_status_for_poi_authority" />
+            <meta-data
+                android:name="@string/service_update_provider"
+                android:value="@string/service_update_provider" />
+            <meta-data
+                android:name="@string/service_update_provider_target"
+                android:value="@string/oc_transpo_service_update_for_poi_authority" />
         </provider>
         <!-- TWITTER NEWS PROVIDER -->
         <provider
