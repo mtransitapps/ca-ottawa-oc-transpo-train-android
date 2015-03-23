@@ -6,6 +6,7 @@ Horaires. Mise à jour en direct
 ----------
 What's new in this version?:
 Horaires du 12 Mars 2015 au 18 Avril 2015.
+Nouvelles de www.octranspo1.com.
 Tweets de @OC_Transpo et @OCTranspoDirect.
 
 BETA : Merci de votre patience pendant que les dernières fonctionnalités sont ajoutées et les derniers problèmes sont corrigés.
@@ -13,7 +14,7 @@ BETA : Merci de votre patience pendant que les dernières fonctionnalités sont 
 Full description:
 Cette application ajoute les informations du O-Train OC Transpo de Ottawa à MonTransit BETA.
 
-Cette application contient les horaires (hors-ligne et temps réel) et les dernières nouvelles de @OC_Transpo et @OCTranspoDirect sur Twitter.
+Cette application contient les horaires (hors-ligne et temps réel) et les dernières nouvelles de www.octranspo1.com et @OC_Transpo et @OCTranspoDirect sur Twitter.
 
 BETA : Merci de votre patience pendant que les dernières fonctionnalités sont ajoutées et les derniers problèmes sont corrigés.
 
@@ -35,4 +36,4 @@ https://github.com/mtransitapps/ca-ottawa-oc-transpo-train-android
 Cette application n'est pas associée à OC Transpo.
 
 Autorisations :
-- Autres: requis pour changer les données en temps réel d’arrivée du prochain autobus OC Transpo et lire les nouvelles (Twitter)
+- Autres: requis pour changer les données en temps réel d’arrivée du prochain autobus OC Transpo et lire les nouvelles de www.octranspo1.com et Twitter
