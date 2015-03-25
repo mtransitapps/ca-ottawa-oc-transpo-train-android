@@ -4,4 +4,5 @@
     <string name="twitter_consumer_secret">INSERT_TWITTER_CONSUMER_SECRET_HERE</string>
     <string name="oc_transpo_app_id">INSERT_OC_TRANSPO_APP_ID_HERE</string>
     <string name="oc_transpo_api_key">INSERT_OC_TRANSPO_API_KEY_HERE</string>
+    <string name="youtube_api_key">INSERT_YOUTUBE_API_KEY_HERE</string>
 </resources>
