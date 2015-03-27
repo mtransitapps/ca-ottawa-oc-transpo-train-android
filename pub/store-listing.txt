@@ -14,7 +14,7 @@ BETA: Thanks for your patience while the last features are being added and the l
 Full description:
 This application adds Ottawa OC Transpo O-Train information to MonTransit BETA.
 
-This app contains the bus schedule (offline and real-time) and the latest news from www.octranspo1.com and @OC_Transpo and @OCTranspoLive on Twitter.
+This app contains the bus schedule (offline and real-time) and the latest news from www.octranspo1.com, YouTube and @OC_Transpo and @OCTranspoLive on Twitter.
 
 BETA: Thanks for your patience while the last features are being added and the last bugs are being fixed.
 
@@ -36,7 +36,7 @@ https://github.com/mtransitapps/ca-ottawa-oc-transpo-train-android
 This app is not related with OC Transpo.
 
 Permissions:
-- Other: required to load OC Transpo Live Next Bus Arrivals & read news from www.octranspo1.com and Twitter.
+- Other: required to load OC Transpo Live Next Bus Arrivals & read news from www.octranspo1.com, YouTube and Twitter.
 ----------
 Application type: Applications
 ----------
