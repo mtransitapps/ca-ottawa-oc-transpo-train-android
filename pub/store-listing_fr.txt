@@ -5,7 +5,7 @@ O-Train OC Transpo d'Ottawa pour MonTransit BETA
 Horaires. Mise à jour en direct
 ----------
 What's new in this version?:
-Horaires du 19 Avril 2015 au 27 Juin 2015.
+Horaires du 19 Mai 2015 au 27 Juin 2015.
 Nouvelles de www.octranspo1.com.
 Tweets de @OC_Transpo et @OCTranspoDirect.
 
@@ -14,7 +14,7 @@ BETA : Merci de votre patience pendant que les dernières fonctionnalités sont 
 Full description:
 Cette application ajoute les informations du O-Train OC Transpo de Ottawa à MonTransit BETA.
 
-Cette application contient les horaires (hors-ligne et temps réel) et les dernières nouvelles de www.octranspo1.com, YouTube et @OC_Transpo et @OCTranspoDirect sur Twitter.
+L'app contient les horaires (hors-ligne et temps réel) et les dernières nouvelles de www.octranspo1.com, YouTube et @OC_Transpo et @OCTranspoDirect sur Twitter.
 
 BETA : Merci de votre patience pendant que les dernières fonctionnalités sont ajoutées et les derniers problèmes sont corrigés.
 
