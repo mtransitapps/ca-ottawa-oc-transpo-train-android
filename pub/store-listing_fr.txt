@@ -5,7 +5,7 @@ O-Train OC Transpo d'Ottawa pour MonTransit.
 Horaires. Mise à jour en direct.
 ----------
 What's new in this version?:
-Horaires du 6 août 2015 au 5 septembre 2015.
+Horaires du 21 août 2015 au 5 septembre 2015.
 Nouvelles de www.octranspo1.com.
 Tweets de @OC_Transpo et @OCTranspoDirect.
 ----------
