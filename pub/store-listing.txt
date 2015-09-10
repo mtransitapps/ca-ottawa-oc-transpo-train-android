@@ -1,7 +1,7 @@
-Title: Ottawa OC Transpo O-Train - M…
+Title: Ottawa OC Transpo OTrain - Mo…
 ----------
 Short description:
-Ottawa OC Transpo O-Train for MonTransit.
+Ottawa OC Transpo OTrain for MonTransit.
 Schedule. Real-time status. News.
 ----------
 What's new in this version?:
