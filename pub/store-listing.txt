@@ -5,7 +5,7 @@ Ottawa OC Transpo OTrain for MonTransit.
 Schedule. Real-time status. News.
 ----------
 What's new in this version?:
-Schedule from September 9, 2015 to December 19, 2015.
+Schedule from September 24, 2015 to December 19, 2015.
 News from www.octranspo1.com.
 Tweets from @OC_Transpo and @OCTranspoLive.
 ----------
