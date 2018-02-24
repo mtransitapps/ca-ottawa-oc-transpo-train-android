@@ -5,7 +5,7 @@ Ottawa OC Transpo OTrain for MonTransit.
 Schedule. Real-time status. News.
 ----------
 What's new in this version?:
-Schedule from February 6, 2018 to April 21, 2018.
+Schedule from February 22, 2018 to April 21, 2018.
 News from www.octranspo1.com.
 Tweets from @OC_Transpo and @OCTranspoLive.
 ----------
