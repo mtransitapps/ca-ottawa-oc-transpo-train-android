@@ -6,13 +6,13 @@ Horaires. Mise à jour en direct.
 ----------
 What's new in this version?:
 Horaires du 5 novembre 2018 au 22 décembre 2018.
-Nouvelles de www.octranspo1.com.
+Nouvelles de www.octranspo.com.
 Tweets de @OC_Transpo et @OCTranspoDirect.
 ----------
 Full description:
 Cette application ajoute les informations du O-Train OC Transpo de Ottawa à MonTransit.
 
-L'app contient les horaires (hors-ligne et temps réel) et les dernières nouvelles de www.octranspo1.com, YouTube et @OC_Transpo et @OCTranspoDirect sur Twitter.
+L'app contient les horaires (hors-ligne et temps réel) et les dernières nouvelles de www.octranspo.com, YouTube et @OC_Transpo et @OCTranspoDirect sur Twitter.
 
 OC Transpo dessert Ottawa en Ontario, Canada.
 
@@ -23,7 +23,7 @@ Cette application a seulement une icône temporaire et pas d'écran : téléchar
 Vous pouvez installer cette application sur la carte SD mais ce n'est pas recommandé.
 
 Ces horaires sont générées à partir du fichier GTFS fourni par OC Transpo et la Ville d'Ottawa
-http://www.octranspo1.com/developpeurs
+http://www.octranspo.com/developpeurs
 http://data.ottawa.ca/fr/dataset/oc-transpo-schedules
 
 Cette application est gratuite et open-source : 
@@ -32,4 +32,4 @@ https://github.com/mtransitapps/ca-ottawa-oc-transpo-train-android
 Cette application n'est pas associée à OC Transpo.
 
 Autorisations :
-- Autres: requis pour changer les données en temps réel d’arrivée du prochain autobus OC Transpo et lire les nouvelles de www.octranspo1.com, YouTube et Twitter
+- Autres: requis pour changer les données en temps réel d’arrivée du prochain autobus OC Transpo et lire les nouvelles de www.octranspo.com, YouTube et Twitter
