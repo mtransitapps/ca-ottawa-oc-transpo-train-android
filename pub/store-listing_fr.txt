@@ -5,7 +5,7 @@ OTrain OC Transpo d'Ottawa pour MonTransit.
 Horaires. Mise à jour en direct.
 ----------
 What's new in this version?:
-Horaires du 18 juin 2019 au 31 août 2019.
+Horaires du 12 juillet 2019 au 31 août 2019.
 Nouvelles de www.octranspo.com.
 Tweets de @OC_Transpo et @OCTranspoDirect.
 ----------
