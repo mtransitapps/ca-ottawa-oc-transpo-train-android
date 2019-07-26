@@ -23,8 +23,7 @@ Cette application a seulement une icône temporaire et pas d'écran : téléchar
 Vous pouvez installer cette application sur la carte SD mais ce n'est pas recommandé.
 
 Ces horaires sont générées à partir du fichier GTFS fourni par OC Transpo et la Ville d'Ottawa
-http://www.octranspo.com/developpeurs
-http://data.ottawa.ca/fr/dataset/oc-transpo-schedules
+https://www.octranspo.com/fr/planifiez/outils-dinformation/developpeurs/
 
 Cette application est gratuite et open-source : 
 https://github.com/mtransitapps/ca-ottawa-oc-transpo-train-android
