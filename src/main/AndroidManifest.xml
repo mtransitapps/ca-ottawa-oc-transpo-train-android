@@ -1,7 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="org.mtransit.android.ca_ottawa_oc_transpo_train"
-    tools:ignore="MissingVersion" >
+    tools:ignore="MissingVersion">
+
     <application
         android:allowBackup="true"
         android:description="@string/app_desc"
@@ -31,7 +33,7 @@
             android:authorities="@string/gtfs_rts_authority"
             android:exported="true"
             android:readPermission="${permission_provider_read}"
-            tools:ignore="MissingRegistered" >
+            tools:ignore="MissingRegistered">
             <meta-data
                 android:name="@string/agency_provider"
                 android:value="@string/agency_provider" />
@@ -63,7 +65,7 @@
             android:authorities="@string/oc_transpo_authority"
             android:exported="true"
             android:readPermission="${permission_provider_read}"
-            tools:ignore="MissingRegistered" >
+            tools:ignore="MissingRegistered">
             <meta-data
                 android:name="@string/status_provider"
                 android:value="@string/status_provider" />
@@ -83,7 +85,7 @@
             android:authorities="@string/twitter_authority"
             android:exported="true"
             android:readPermission="${permission_provider_read}"
-            tools:ignore="MissingRegistered" >
+            tools:ignore="MissingRegistered">
             <meta-data
                 android:name="@string/news_provider"
                 android:value="@string/news_provider" />
@@ -97,7 +99,7 @@
             android:authorities="@string/rss_authority"
             android:exported="true"
             android:readPermission="${permission_provider_read}"
-            tools:ignore="MissingRegistered" >
+            tools:ignore="MissingRegistered">
             <meta-data
                 android:name="@string/news_provider"
                 android:value="@string/news_provider" />
@@ -111,7 +113,7 @@
             android:authorities="@string/youtube_authority"
             android:exported="true"
             android:readPermission="${permission_provider_read}"
-            tools:ignore="MissingRegistered" >
+            tools:ignore="MissingRegistered">
             <meta-data
                 android:name="@string/news_provider"
                 android:value="@string/news_provider" />
