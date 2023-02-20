@@ -3,4 +3,6 @@
     <integer name="gtfs_rts_db_version">20230214</integer>
     <string name="gtfs_rts_authority">org.mtransit.android.ca_ottawa_oc_transpo_train.gtfs</string>
     <string name="gtfs_status_for_poi_authority">@string/gtfs_rts_authority</string>
+    <string name="gtfs_rts_contact_us">https://www.octranspo.com/en/contact-us/</string>
+    <string name="gtfs_rts_contact_us_fr">https://www.octranspo.com/fr/contactez-nous/</string>
 </resources>
