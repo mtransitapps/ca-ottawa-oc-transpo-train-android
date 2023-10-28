@@ -10,14 +10,15 @@ This application only has a temporary icon: download the MonTransit app (free) i
 
 You can install this application on the SD card but it is not recommended.
 
+This application is free and open-source:
+https://github.com/mtransitapps/ca-ottawa-oc-transpo-train-android
+
 The information comes from the GTFS file provided by OC Transpo and the City of Ottawa
 https://open.ottawa.ca/datasets/oc-transpo-schedules
 https://www.octranspo.com/en/plan-your-trip/travel-tools/developers/
 
-This application is free and open-source:
-https://github.com/mtransitapps/ca-ottawa-oc-transpo-train-android
 
-This app is not related with OC Transpo.
+This app is not related with OC Transpo and the City of Ottawa.
 
 Permissions:
 - Other: required to load OC Transpo Live Next Bus Arrivals & read news from www.octranspo.com and Twitter.
