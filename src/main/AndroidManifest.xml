@@ -61,7 +61,7 @@
                 android:value="@string/service_update_provider" />
             <meta-data
                 android:name="@string/service_update_provider_target"
-                android:value="@string/gtfs_real_time_for_poi_authority" />
+                android:value="@string/oc_transpo_service_update_for_poi_authority" />
         </provider>
         <!-- TWITTER NEWS PROVIDER -->
         <provider
