@@ -2,5 +2,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
     <integer name="gtfs_rts_agency_type">2</integer>
     <string name="gtfs_rts_timezone">America/Montreal</string>
-    <string name="gtfs_rts_color">A2211F</string>
+    <string name="gtfs_rts_color">DA291C</string>
+    <string name="gtfs_rts_route_id_cleanup_regex">\\-\\d+$</string>
 </resources>
