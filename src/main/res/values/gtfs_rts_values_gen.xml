@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
-    <integer name="gtfs_rts_agency_type">2</integer>
+    <integer name="gtfs_rts_agency_type">0</integer>
     <string name="gtfs_rts_timezone">America/Montreal</string>
-    <string name="gtfs_rts_color">DA291C</string>
+    <string name="gtfs_rts_color">C80D1A</string>
     <string name="gtfs_rts_route_id_cleanup_regex">\\-\\d+$</string>
 </resources>
