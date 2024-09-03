@@ -10,6 +10,7 @@ import org.mtransit.commons.CleanUtils;
 import org.mtransit.commons.provider.OttawaOCTranspoProviderCommons;
 import org.mtransit.parser.DefaultAgencyTools;
 import org.mtransit.parser.MTLog;
+import org.mtransit.parser.gtfs.data.GRoute;
 import org.mtransit.parser.gtfs.data.GStop;
 import org.mtransit.parser.mt.data.MAgency;
 
@@ -47,6 +48,19 @@ public class OttawaOCTranspoTrainAgencyTools extends DefaultAgencyTools {
 	@Override
 	public Integer getAgencyRouteType() {
 		return MAgency.ROUTE_TYPE_LIGHT_RAIL;
+	}
+
+	@Override
+	public boolean excludeRoute(@NotNull GRoute gRoute) {
+		if (gRoute.getRouteType() == MAgency.ROUTE_TYPE_BUS) {
+			final String rsn = gRoute.getRouteShortName();
+			switch (rsn) {
+			case "1": // Confederation Line
+			case "2": // Bayview - Greenboro
+				return KEEP; // wrongfully classified as bus
+			}
+		}
+		return super.excludeRoute(gRoute);
 	}
 
 	@Override
