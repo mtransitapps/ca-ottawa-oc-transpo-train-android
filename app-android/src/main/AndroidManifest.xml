@@ -41,6 +41,7 @@
                 android:value="@string/gtfs_rts_authority" />
         </provider>
         <!-- OC TRANSPO PROVIDER -->
+        <!-- TODO remove: "API 2.0 is fully deprecated in Q1, 2025" -->
         <provider
             android:name="org.mtransit.android.commons.provider.OCTranspoProvider"
             android:authorities="@string/oc_transpo_authority"
