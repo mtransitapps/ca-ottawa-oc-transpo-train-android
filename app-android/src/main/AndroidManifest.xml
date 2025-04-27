@@ -41,7 +41,7 @@
                 android:value="@string/gtfs_rts_authority" />
         </provider>
         <!-- OC TRANSPO PROVIDER -->
-        <!-- TODO remove: "API 2.0 is fully deprecated in Q1, 2025" -->
+        <!-- DISABLED since April 30, 2025
         <provider
             android:name="org.mtransit.android.commons.provider.OCTranspoProvider"
             android:authorities="@string/oc_transpo_authority"
@@ -61,6 +61,7 @@
                 android:name="@string/service_update_provider_target"
                 android:value="@string/oc_transpo_service_update_for_poi_authority" />
         </provider>
+        -->
         <!-- TWITTER NEWS PROVIDER -->
         <provider
             android:name="org.mtransit.android.commons.provider.TwitterNewsProvider"
