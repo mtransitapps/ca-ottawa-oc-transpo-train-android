@@ -4,10 +4,13 @@ import static org.mtransit.commons.StringUtils.EMPTY;
 
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
+import org.mtransit.commons.CharUtils;
 import org.mtransit.commons.CleanUtils;
 import org.mtransit.commons.provider.OttawaOCTranspoProviderCommons;
 import org.mtransit.parser.DefaultAgencyTools;
+import org.mtransit.parser.MTLog;
 import org.mtransit.parser.gtfs.data.GRoute;
+import org.mtransit.parser.gtfs.data.GStop;
 import org.mtransit.parser.mt.data.MAgency;
 
 import java.util.List;
@@ -131,57 +134,12 @@ public class OttawaOCTranspoTrainAgencyTools extends DefaultAgencyTools {
 		return CleanUtils.cleanLabel(gStopName);
 	}
 
-	// private static final String EE = "EE";
-	// private static final String EO = "EO";
-	// private static final String NG = "NG";
-	// private static final String NO = "NO";
-	// private static final String WA = "WA";
-	// private static final String WD = "WD";
-	// private static final String WH = "WH";
-	// private static final String WI = "WI";
-	// private static final String WL = "WL";
-	// private static final String PLACE = "place";
-	// private static final String RZ = "RZ";
-	//
-	// @Override
-	// public int getStopId(@NotNull GStop gStop) {
-	// 	String stopCode = getStopCode(gStop);
-	// 	if (!stopCode.isEmpty() && CharUtils.isDigitsOnly(stopCode)) {
-	// 		return Integer.parseInt(stopCode); // using stop code as stop ID
-	// 	}
-	// 	//noinspection deprecation
-	// 	final String stopId1 = gStop.getStopId();
-	// 	final Matcher matcher = DIGITS.matcher(stopId1);
-	// 	if (matcher.find()) {
-	// 		final int digits = Integer.parseInt(matcher.group());
-	// 		final int stopId;
-	// 		if (stopId1.startsWith(EE)) {
-	// 			stopId = 100_000;
-	// 		} else if (stopId1.startsWith(EO)) {
-	// 			stopId = 200_000;
-	// 		} else if (stopId1.startsWith(NG)) {
-	// 			stopId = 300_000;
-	// 		} else if (stopId1.startsWith(NO)) {
-	// 			stopId = 400_000;
-	// 		} else if (stopId1.startsWith(WA)) {
-	// 			stopId = 500_000;
-	// 		} else if (stopId1.startsWith(WD)) {
-	// 			stopId = 600_000;
-	// 		} else if (stopId1.startsWith(WH)) {
-	// 			stopId = 700_000;
-	// 		} else if (stopId1.startsWith(WI)) {
-	// 			stopId = 800_000;
-	// 		} else if (stopId1.startsWith(WL)) {
-	// 			stopId = 900_000;
-	// 		} else if (stopId1.startsWith(PLACE)) {
-	// 			stopId = 1_000_000;
-	// 		} else if (stopId1.startsWith(RZ)) {
-	// 			stopId = 1_100_000;
-	// 		} else {
-	// 			throw new MTLog.Fatal("Stop doesn't have an ID (start with)! %s!", gStop);
-	// 		}
-	// 		return stopId + digits;
-	// 	}
-	// 	throw new MTLog.Fatal("Unexpected stop ID for %s!", gStop);
-	// }
+	@Override
+	public int getStopId(@NotNull GStop gStop) {
+		String stopCode = getStopCode(gStop);
+		if (!stopCode.isEmpty() && CharUtils.isDigitsOnly(stopCode)) {
+			return Integer.parseInt(stopCode); // using stop code as stop ID
+		}
+		throw new MTLog.Fatal("Unexpected stop ID for %s!", gStop.toStringPlus(true));
+	}
 }
