@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!-- trust-anchors certificates must be added to /.github/workflows/mt-update-ssl-cert.yml -->
+    <!-- stm.info custom CA: used for RSS... -->
+    <domain-config>
+        <domain includeSubdomains="true">octranspo.com</domain>
+        <trust-anchors>
+            <!-- openssl s_client -connect octranspo.com:443 2>/dev/null </dev/null | sed -ne '/-BEGIN CERTIFICATE-/,/-END CERTIFICATE-/p' > app-android/src/main/res/raw/com_octranspo_pem -->
+            <certificates src="@raw/com_octranspo_pem" />
+        </trust-anchors>
+    </domain-config>
+</network-security-config>
