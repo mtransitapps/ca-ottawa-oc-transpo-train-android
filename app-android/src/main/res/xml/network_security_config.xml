@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <network-security-config>
     <!-- trust-anchors certificates must be added to /.github/workflows/mt-update-ssl-cert.yml -->
-    <!-- stm.info custom CA: used for RSS... -->
+    <!-- octranspo.com custom CA: used for RSS... -->
     <domain-config>
         <domain includeSubdomains="true">octranspo.com</domain>
         <trust-anchors>
