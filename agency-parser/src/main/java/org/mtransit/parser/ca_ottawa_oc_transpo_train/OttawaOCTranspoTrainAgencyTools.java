@@ -79,6 +79,11 @@ public class OttawaOCTranspoTrainAgencyTools extends DefaultAgencyTools {
 	}
 
 	@Override
+	public boolean verifyRouteIdsUniqueness() {
+		return false; // merge routes
+	}
+
+	@Override
 	public boolean defaultAgencyColorEnabled() {
 		return true;
 	}
