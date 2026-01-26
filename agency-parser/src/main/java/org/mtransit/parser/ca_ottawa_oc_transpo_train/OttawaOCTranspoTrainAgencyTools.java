@@ -44,6 +44,11 @@ public class OttawaOCTranspoTrainAgencyTools extends DefaultAgencyTools {
 	}
 
 	@Override
+	public @Nullable String getServiceIdCleanupRegex() {
+		return "^[A-Z]+\\d{2}\\-"; // starts with "MMMYY" (JAN26 or SEPT25)
+	}
+
+	@Override
 	public boolean excludeRoute(@NotNull GRoute gRoute) {
 		if (gRoute.getRouteType() == MAgency.ROUTE_TYPE_BUS) {
 			final String rsn = gRoute.getRouteShortName();
@@ -108,6 +113,11 @@ public class OttawaOCTranspoTrainAgencyTools extends DefaultAgencyTools {
 		return OttawaOCTranspoProviderCommons.cleanTripHeadsign(tripHeadsign);
 	}
 
+	@Override
+	public @Nullable String getTripIdCleanupRegex() {
+		return "^[A-Z]+\\d{2}\\-"; // starts with "MMMYY" (JAN26 or SEPT25)
+	}
+
 	private static final Pattern ENDS_WITH_DIRECTION = Pattern.compile("(" //
 			+ "n\\.|s\\.|e\\.|w\\.|o\\." //
 			+ "|" //
@@ -136,7 +146,7 @@ public class OttawaOCTranspoTrainAgencyTools extends DefaultAgencyTools {
 		gStopName = CleanUtils.cleanBounds(gStopName);
 		gStopName = CleanUtils.cleanNumbers(gStopName);
 		gStopName = CleanUtils.cleanStreetTypes(gStopName);
-		return CleanUtils.cleanLabel(gStopName);
+		return CleanUtils.cleanLabel(getFirstLanguageNN(), gStopName);
 	}
 
 	@Override

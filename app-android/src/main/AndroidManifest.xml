@@ -63,21 +63,23 @@
         </provider>
         -->
         <!-- GTFS REAL TIME PROVIDER -->
+        <!-- DISABLED: not compatible with OTrain (?)
         <provider
             android:name="org.mtransit.android.commons.provider.GTFSRealTimeProvider"
             android:authorities="@string/gtfs_real_time_authority"
             android:exported="true"
             android:readPermission="${permission_provider_read}"
             tools:ignore="MissingRegistered">
-            <!--
+            <!- -
             <meta-data
                 android:name="@string/vehicle_location_provider"
                 android:value="@string/vehicle_location_provider" />
             <meta-data
                 android:name="@string/vehicle_location_provider_target"
                 android:value="@string/gtfs_real_time_for_poi_authority" />
-            -->
+           - ->
         </provider>
+        -->
         <!-- TWITTER NEWS PROVIDER -->
         <provider
             android:name="org.mtransit.android.commons.provider.TwitterNewsProvider"
