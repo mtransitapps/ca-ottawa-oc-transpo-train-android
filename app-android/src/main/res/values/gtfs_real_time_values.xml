@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation,UnusedResources">
+    <integer name="gtfs_real_time_db_version">2</integer>
+    <string name="gtfs_real_time_for_poi_authority">@string/gtfs_rts_authority</string>
+    <!-- JSON: https://nextrip-public-api.azure-api.net/octranspo/gtfs-rt-vp/beta/v1/VehiclePositions?format=json -->
+    <string name="gtfs_real_time_agency_vehicle_positions_url">https://nextrip-public-api.azure-api.net/octranspo/gtfs-rt-vp/beta/v1/VehiclePositions</string>
+    <!-- JSON: https://nextrip-public-api.azure-api.net/octranspo/gtfs-rt-tp/beta/v1/TripUpdates?format=json -->
+    <string name="gtfs_real_time_agency_trip_updates_url">https://nextrip-public-api.azure-api.net/octranspo/gtfs-rt-tp/beta/v1/TripUpdates</string>
+    <string-array name="gtfs_real_time_agency_url_header_names">
+        <item>Ocp-Apim-Subscription-Key</item>
+    </string-array>
+    <string-array name="gtfs_real_time_agency_url_header_values">
+        <item>@string/oc_transpo_subscription_key</item>
+    </string-array>
+</resources>
