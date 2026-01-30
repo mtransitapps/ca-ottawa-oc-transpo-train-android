@@ -45,7 +45,7 @@ public class OttawaOCTranspoTrainAgencyTools extends DefaultAgencyTools {
 
 	@Override
 	public @Nullable String getServiceIdCleanupRegex() {
-		return "^[A-Z]+\\d{2}\\-"; // starts with "MMMYY" (JAN26 or SEPT25)
+		return "^[A-Z]+\\d{2}\\-|-\\d{2}(-|$)";
 	}
 
 	@Override
