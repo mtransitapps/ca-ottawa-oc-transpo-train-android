@@ -44,6 +44,15 @@
         {
             "regex": "(n\\.|s\\.|e\\.|w\\.|o\\.|north/nord|south/sud|east/est|west/ouest|north / nord|south / sud|east / est|west / ouest)",
             "ignore_case": true
+        },
+        {
+            "regex": "( nord$)",
+            "ignore_case": true
+        },
+        {
+            "regex": "(north / )",
+            "ignore_case": true,
+            "replacement": " / "
         }
     ],
     "use_stop_code_for_stop_id": true
