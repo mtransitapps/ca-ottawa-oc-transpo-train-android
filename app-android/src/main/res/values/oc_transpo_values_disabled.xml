@@ -1,6 +1,3 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation,UnusedResources">
-    <integer name="oc_transpo_db_version">2</integer>
-    <string name="oc_transpo_status_for_poi_authority">@string/gtfs_rts_authority</string>
-    <string name="oc_transpo_service_update_for_poi_authority">@string/gtfs_rts_authority</string>
 </resources>

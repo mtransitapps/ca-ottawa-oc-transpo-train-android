@@ -1,0 +1,59 @@
+{
+    "keep_routes": [
+        {
+            "route_short_name": "1",
+            "comment": "Confederation Line (Blair <> Tunney''s Pasture)"
+        },
+        {
+            "route_short_name": "2",
+            "comment": "Bayview <> Limebank"
+        },
+        {
+            "route_short_name": "4",
+            "comment": "South Keys <> Airport ~ Aéroport"
+        }
+    ],
+    "default_route_id_enabled": true,
+    "use_route_short_name_for_route_id": true,
+    "default_route_long_name_enabled": true,
+    "route_id_cleanup_regex": "\\-\\d+(\\-\\d+)?$",
+    "route_id_not_unique_allowed": true,
+    "route_id_not_unique_allowed_comment": "merge routes",
+    "direction_finder_enabled": true,
+    "trip_id_cleanup_regex": "^[A-Z]+\\d{2}\\-",
+    "trip_id_cleanup_regex_comment": "starts with \"MMMYY\" (JAN26 or SEPT25)",
+    "trip_headsign_remove_via": true,
+    "trip_headsign_cleaners": [
+        {
+            "regex": "( ~ .*$)",
+            "comment": "remove 2nd language"
+        },
+        {
+            "regex": "carine wilson",
+            "ignore_case": true,
+            "is_word": true,
+            "replacement": "Cairine Wilson"
+        }
+    ],
+    "stop_name_cleaners": [
+        {
+            "regex": "o-train|o train",
+            "ignore_case": true,
+            "is_word": true
+        },
+        {
+            "regex": "(n\\.|s\\.|e\\.|w\\.|o\\.|north/nord|south/sud|east/est|west/ouest|north / nord|south / sud|east / est|west / ouest)",
+            "ignore_case": true
+        },
+        {
+            "regex": "( nord$)",
+            "ignore_case": true
+        },
+        {
+            "regex": "(north / )",
+            "ignore_case": true,
+            "replacement": " / "
+        }
+    ],
+    "use_stop_code_for_stop_id": true
+}

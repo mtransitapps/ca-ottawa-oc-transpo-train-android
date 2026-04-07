@@ -1,0 +1,11 @@
+{
+    "target_route_type_id": 0,
+    "default_color": "C80D1A",
+    "default_color_enabled": true,
+    "service_id_cleanup_regex": "^[A-Z]+\\d{2}\\-|-\\d{2}(-|$)",
+    "default_strings_cleaner_enabled": true,
+    "to_lower_upper_case_words": true,
+    "ignore_upper_case_words": [
+        "TOH"
+    ]
+}
