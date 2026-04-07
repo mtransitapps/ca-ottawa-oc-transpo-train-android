@@ -17,8 +17,6 @@ import java.util.List;
 import java.util.Locale;
 import java.util.regex.Pattern;
 
-// https://www.octranspo.com/en/plan-your-trip/travel-tools/developers/
-// https://www.octranspo.com/fr/planifiez/outils-dinformation/developpeurs/
 public class OttawaOCTranspoTrainAgencyTools extends DefaultAgencyTools {
 
 	public static void main(@NotNull String[] args) {
@@ -53,9 +51,9 @@ public class OttawaOCTranspoTrainAgencyTools extends DefaultAgencyTools {
 		if (gRoute.getRouteType() == MAgency.ROUTE_TYPE_BUS) {
 			final String rsn = gRoute.getRouteShortName();
 			switch (rsn) {
-			case "1": // Confederation Line
-			case "2": // Bayview - Greenboro
-			case "4": // South Keys - Airport
+			case "1": // Confederation Line (Blair <> Tunney''s Pasture)
+			case "2": // Bayview <> Limebank
+			case "4": // South Keys <> Airport ~ Aéroport
 				return KEEP; // wrongfully classified as bus
 			}
 		}
