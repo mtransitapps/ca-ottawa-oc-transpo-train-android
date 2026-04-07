@@ -32,7 +32,7 @@
             "regex": "carine wilson",
             "ignore_case": true,
             "is_word": true,
-            "replacement": "Carine Wilson"
+            "replacement": "Cairine Wilson"
         }
     ],
     "stop_name_cleaners": [
