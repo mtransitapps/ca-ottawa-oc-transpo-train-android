@@ -1,0 +1,18 @@
+# CUSTOM FILE: daily schedule to trigger mt-download-data.yml
+# OC Transpo strongly recommends the download of GTFS Schedule file on a daily basis to ensure the GTFS-RT feed is compatible.
+# The preferred time to download the compressed zip file would be between midnight and 2 am EST, just before the start of service day.
+# https://nextrip-public-api.developer.azure-api.net/
+name: MT download data - daily
+on:
+  schedule:
+    - cron: '0 7 * * *' # Every day @ 7am UTC / 1am ET # https://crontab.guru/#0_7_*_*_*
+  workflow_dispatch: # manual
+jobs:
+  MT-TRIGGER-DOWNLOAD-DATA-JOB:
+    name: "MT Trigger Download Data"
+    runs-on: ubuntu-latest
+    steps:
+      - name: MT trigger download data workflow
+        run: gh workflow run mt-download-data.yml --repo ${{ github.repository }}
+        env:
+          GH_TOKEN: ${{ secrets.MT_PAT }}
